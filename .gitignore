@@ -1,0 +1,43 @@
+# Node modules (for all projects)
+**/node_modules/
+
+# Angular build output
+**/dist/
+**/out-tsc/
+**/.angular/cache/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript build info
+**/*.tsbuildinfo
+
+# IDEs and editor files
+**/.idea/
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+!**/.vscode/extensions.json
+**/*.sublime-workspace
+**/.history/*
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+**/coverage/
+
+# Sass cache
+**/.sass-cache/
+
+# Temporary files
+**/*.tmp
+**/*.swp
+**/connect.lock
+
+# Optional: environment files with secrets (avoid committing)
+**/src/environments/*.ts

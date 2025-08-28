@@ -27,3 +27,5 @@
 - Performance Optimization
 - Testing (Jasmine/Karma or Jest)
 - Accessibility (a11y)
+
+https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/43788456#overview

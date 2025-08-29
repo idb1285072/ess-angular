@@ -30,3 +30,8 @@ my-app/
   - `angular.json` -
   - `tsconfig.json` - TypeScript configuration
   - `node_modules` - installed dependencies (libraries, angular packages)
+
+## `tsconfig.json`
+```json
+"compileOnSave": false // Angular CLI handle
+```

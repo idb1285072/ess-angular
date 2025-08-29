@@ -1,0 +1,18 @@
+<app-header />
+<main>
+  <ul id="users">
+    <li>
+      <app-user [name]="users[0].name" [imagePath]="'users/'+users[0].avatar" (select)="receiveData($event)"/>
+    </li>
+    <li>
+      <app-user [name]="users[1].name" [imagePath]="'users/'+users[1].avatar" />
+    </li>
+    <li>
+      <app-user [name]="users[2].name" [imagePath]="'users/'+users[2].avatar" />
+    </li>
+    <li>
+      <app-user [name]="users[3].name" [imagePath]="'users/'+users[3].avatar" />
+    </li>
+  </ul>
+</main>
+<!-- <app-footer /> -->

@@ -1,0 +1,13 @@
+<div>
+  <ul *ngIf="tickets.length; else fallback">
+    <li *ngFor="let ticket of tickets">
+      <app-ticket [ticket]="ticket" (close)="onCloseTicket($event)"></app-ticket>
+    </li>
+  </ul>
+  <ng-template #fallback>
+    <h2>No tickets</h2>
+  </ng-template>
+</div>
+<div id="new-ticket">
+  <app-new-ticket (add)="onAdd($event)"></app-new-ticket>
+</div>

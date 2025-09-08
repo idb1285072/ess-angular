@@ -1,0 +1,25 @@
+<div
+  id="status"
+  [class]="{
+    status: true,
+    'status-online': currentStatus === 'online',
+    'status-offline': currentStatus === 'offline',
+    'status-unknown': currentStatus === 'unknown'
+  }"
+>
+  <div *ngIf="currentStatus === 'online'; else offlineOrUnknown">
+    <p>Servers are online</p>
+    <p>All systems are operational.</p>
+  </div>
+
+  <ng-template #offlineOrUnknown>
+    <div *ngIf="currentStatus === 'offline'; else unknown">
+      <p>Servers are offline</p>
+      <p>Functionality should be restored soon.</p>
+    </div>
+  </ng-template>
+  <ng-template #unknown>
+    <p>Server status is unknown</p>
+    <p>Fetching server status failed.</p>
+  </ng-template>
+</div>

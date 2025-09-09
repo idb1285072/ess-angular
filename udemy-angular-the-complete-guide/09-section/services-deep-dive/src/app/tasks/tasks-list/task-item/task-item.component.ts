@@ -1,5 +1,5 @@
-import { Component, Input, Inject } from '@angular/core';
-import { Task, TaskStatus } from '../../task.model';
+import { Component, inject, Input, OnInit } from '@angular/core';
+import { Task, TASK_STATUS_OPTIONS, TaskStatus } from '../../task.model';
 import { TasksService } from '../../tasks.service';
 
 @Component({
@@ -8,8 +8,8 @@ import { TasksService } from '../../tasks.service';
   styleUrls: ['./task-item.component.css'],
 })
 export class TaskItemComponent {
-  // private tasksService = Inject(TasksService);
-  constructor(private tasksService:TasksService){}
+  constructor(private tasksService: TasksService) {}
+  taskStatusOptions = inject(TASK_STATUS_OPTIONS);
   @Input() task!: Task;
   get taskStatus() {
     switch (this.task.status) {
@@ -25,7 +25,7 @@ export class TaskItemComponent {
   }
   onChangeTaskStatus(taskId: string, status: string) {
     let newStatus: TaskStatus = 'OPEN';
-console.log('click',taskId, status)
+
     switch (status) {
       case 'open':
         newStatus = 'OPEN';

@@ -13,12 +13,14 @@ import { TasksService } from '../tasks.service';
   styleUrls: ['./new-task.component.css'],
 })
 export class NewTaskComponent {
+  constructor(private tasksService: TasksService) {}
+  // private tasksService = inject(TasksService);
+
   @ViewChild('form') formElement =
     inject<ElementRef<HTMLFormElement>>(ElementRef);
   onAddTask(title: string, description: string) {
-    this.tasksService.addTask({title:title, description:description})
+    this.tasksService.addTask({ title, description });
+    console.log(title, description);
     this.formElement?.nativeElement.reset();
   }
-
-  constructor(private tasksService: TasksService) {}
 }

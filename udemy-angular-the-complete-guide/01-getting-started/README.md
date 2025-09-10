@@ -11,9 +11,7 @@
 - OOP concepts and principles
 - TypeScript
 
-## History
-
-## VS Code
+## VS Code Extension
 
 - Angular Language Service
 - Angular Essentials by John Papa

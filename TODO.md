@@ -1,0 +1,31 @@
+- What is Angular - section 01
+- Project Structure Overview - section 02
+- Component & Lifecycle - section 06
+- Change Detection Strategies - section 10
+- Directives, Pipes - section 07, 08
+- Custom Pipes & Directives - section 07, 08
+- Service & Dependency Injection - section 09
+- NgModule - section 03
+- Routing & Navigation - section 14
+- HTTP Client - section 12
+- Template Reference Variables - section 06 [128, 129, 130]
+- Forms (Reactive vs Template Driven) - section 13
+- TrackBy in ngFor - section 02
+
+- Selector, Injection, Data Sharing
+- Template, Data Binding - section 06
+- Interpolation, Property/Class/Style Binding - section 06
+- Event & Two-way Binding - section 06
+
+- Ng-content, Elements, Standalone Component, Dynamic Component
+- Route Guards: Resolver, CanActivate - section 36
+- Angular CLI
+- Lazy & Eager Loading
+- Environment Files
+- Signals (if Angular 17+)
+- Performance Optimization
+- Testing (Jasmine/Karma or Jest)
+- Accessibility (a11y)
+- Complete Office Udemy Angular Course
+
+- Component, Service, Pipe, Directive, Module

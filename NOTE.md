@@ -1,24 +1,24 @@
-- **What is Angular** - _section 01_
-- **Project Structure Overview** - _section 02_
-- **Component & Lifecycle** - _section 06_
-- **Selector, Injection, Data Sharing** - _section 02_
+- ✅**What is Angular** - _section 01_
+- ✅**Project Structure Overview** - _section 02_
+- ✅**Component & Lifecycle** - _section 06_
+- ✅**Selector, Injection, Data Sharing** - _section 02_
 - **Ng-content**, Elements, Standalone Component, Dynamic Component
-- **Template, Data Binding** - _section 06_
-- **Interpolation, Property/Class/Style Binding** - _section 06_
-- **Event & Two-way Binding** - _section 06_
-- **Template Reference Variables** - _section 06_
-- **Directives, Pipes** - _section 07, 08_
-- **Service & Dependency Injection** - _section 09_
-- **NgModule** - _section 03_
-- **Routing & Navigation** - _section 14_
-- **Forms (Reactive vs Template Driven)** - _section 13_
-- **HTTP Client** - _section 12_
+- ✅**Template, Data Binding** - _section 06_
+- ✅**Interpolation, Property/Class/Style Binding** - _section 06_
+- ✅**Event & Two-way Binding** - _section 06_
+- ✅**Template Reference Variables** - _section 06_
+- ✅**Directives, Pipes** - _section 07, 08_
+- ✅**Service & Dependency Injection** - _section 09_
+- ✅**NgModule** - _section 03_
+- ✅**Routing & Navigation** - _section 14_
+- ✅**Forms (Reactive vs Template Driven)** - _section 13_
+- ✅**HTTP Client** - _section 12_
 - Lazy & Eager Loading
 - Angular CLI
 - Complete Office Udemy Angular Course
-- **Change Detection Strategies** - _section 10_
-- **TrackBy in ngFor** - _section 02_
-- **Custom Pipes** & Directives - _section 07, 08_
+- ✅**Change Detection Strategies** - _section 10_
+- ✅**TrackBy in ngFor** - _section 02_
+- ✅**Custom Pipes** & Directives - _section 07, 08_
 - Route Guards: Resolver, CanActivate
 - Environment Files
 - Signals (if Angular 17+)
